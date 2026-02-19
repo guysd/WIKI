@@ -1,6 +1,8 @@
 📁 Guide de Configuration : PostgREST + Swagger UI
+
 Ce document récapitule la configuration nécessaire pour exposer une base de données PostgreSQL via une API REST automatique avec Swagger.
-1. Configuration Docker (docker-compose.yml)
+
+#1. Configuration Docker (docker-compose.yml)
 Assurez-vous que les ports internes et externes sont alignés.
 yaml
 
@@ -30,9 +32,11 @@ services:
       API_URL: http://192.168.2.109
 
 Utilisez le code avec précaution.
-2. Variables d'Environnement (.env)
+#2. Variables d'Environnement (.env)
 📁 Guide de Configuration : PostgREST + Swagger UI
+
 Ce document récapitule la configuration nécessaire pour exposer une base de données PostgreSQL via une API REST automatique avec Swagger.
+
 1. Configuration Docker (docker-compose.yml)
 Assurez-vous que les ports internes et externes sont alignés.
 yaml
