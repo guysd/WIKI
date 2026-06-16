@@ -1,0 +1,1 @@
+g++ pointeurs_demo.cpp -o pointeurs_demo.exe -lgdi32
